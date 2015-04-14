@@ -14,6 +14,7 @@
 		9173F2B81ADD7D89003B74F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9173F2B71ADD7D89003B74F2 /* Images.xcassets */; };
 		9173F2BB1ADD7D89003B74F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9173F2B91ADD7D89003B74F2 /* LaunchScreen.xib */; };
 		9173F2C71ADD7D8A003B74F2 /* ab_PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173F2C61ADD7D8A003B74F2 /* ab_PatternsTests.swift */; };
+		91DE8F021ADD8D7B008423A5 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE8F011ADD8D7B008423A5 /* Pattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9173F2C01ADD7D8A003B74F2 /* ab-PatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ab-PatternsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9173F2C51ADD7D8A003B74F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9173F2C61ADD7D8A003B74F2 /* ab_PatternsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ab_PatternsTests.swift; sourceTree = "<group>"; };
+		91DE8F011ADD8D7B008423A5 /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9173F2AD1ADD7D89003B74F2 /* AppDelegate.swift */,
+				91DE8F011ADD8D7B008423A5 /* Pattern.swift */,
 				9173F2B21ADD7D89003B74F2 /* ViewController.swift */,
 				9173F2B41ADD7D89003B74F2 /* Main.storyboard */,
 				9173F2B71ADD7D89003B74F2 /* Images.xcassets */,
@@ -217,6 +220,7 @@
 			files = (
 				9173F2B31ADD7D89003B74F2 /* ViewController.swift in Sources */,
 				9173F2AE1ADD7D89003B74F2 /* AppDelegate.swift in Sources */,
+				91DE8F021ADD8D7B008423A5 /* Pattern.swift in Sources */,
 				9173F2B11ADD7D89003B74F2 /* ab_Patterns.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				9173F2CC1ADD7D8A003B74F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9173F2CD1ADD7D8A003B74F2 /* Build configuration list for PBXNativeTarget "ab-PatternsTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				9173F2CF1ADD7D8A003B74F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
