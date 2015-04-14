@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		915C28CD1ADD97D0008E8FA9 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE8F011ADD8D7B008423A5 /* Pattern.swift */; };
+		915C28CE1ADD97D0008E8FA9 /* ab_Patterns.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9173F2AF1ADD7D89003B74F2 /* ab_Patterns.xcdatamodeld */; };
 		9173F2AE1ADD7D89003B74F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173F2AD1ADD7D89003B74F2 /* AppDelegate.swift */; };
-		9173F2B11ADD7D89003B74F2 /* ab_Patterns.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9173F2AF1ADD7D89003B74F2 /* ab_Patterns.xcdatamodeld */; };
 		9173F2B31ADD7D89003B74F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173F2B21ADD7D89003B74F2 /* ViewController.swift */; };
 		9173F2B61ADD7D89003B74F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9173F2B41ADD7D89003B74F2 /* Main.storyboard */; };
 		9173F2B81ADD7D89003B74F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9173F2B71ADD7D89003B74F2 /* Images.xcassets */; };
 		9173F2BB1ADD7D89003B74F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9173F2B91ADD7D89003B74F2 /* LaunchScreen.xib */; };
 		9173F2C71ADD7D8A003B74F2 /* ab_PatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9173F2C61ADD7D8A003B74F2 /* ab_PatternsTests.swift */; };
-		91DE8F021ADD8D7B008423A5 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE8F011ADD8D7B008423A5 /* Pattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,10 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915C28CD1ADD97D0008E8FA9 /* Pattern.swift in Sources */,
+				915C28CE1ADD97D0008E8FA9 /* ab_Patterns.xcdatamodeld in Sources */,
 				9173F2B31ADD7D89003B74F2 /* ViewController.swift in Sources */,
 				9173F2AE1ADD7D89003B74F2 /* AppDelegate.swift in Sources */,
-				91DE8F021ADD8D7B008423A5 /* Pattern.swift in Sources */,
-				9173F2B11ADD7D89003B74F2 /* ab_Patterns.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 //    let result = context?.executeFetchRequest(request, error: nil)
 
     if let results = context?.executeFetchRequest(request, error: nil) {
-      patterns = results as! [Pattern]
+      patterns = (results as? [Pattern])!
 
     }
 
@@ -50,7 +50,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     let cell = UITableViewCell()
-    cell.textLabel?.text = "test text"
+    cell.textLabel?.text = patterns[indexPath.row].name
     return cell
   }
 
